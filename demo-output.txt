@@ -1,0 +1,131 @@
+CATALOGUE
+  result families      372
+  manuscripts          722
+  subjects             17
+  subject                                      families  papers  with a Lean page
+  Theoretical computer science                       40      73        32
+  Combinatorics                                      37      50        33
+  Algebraic and complex geometry                     36      89         7
+  Number theory                                      31      58        16
+  Probability and statistical mechanics              29     105        19
+  Differential geometry                              29      49        15
+  Mathematical physics                               25      59        17
+  Operator algebras                                  19      31        14
+  Algebra                                            18      29         9
+  Topology                                           18      26         3
+  Real and complex analysis                          16      26         9
+  Partial differential equations                     16      29        11
+  Convex and metric geometry                         15      30        13
+  Group theory                                       14      22        12
+  Dynamical systems and ergodic theory               12      19         9
+  Functional analysis                                11      19        10
+  Mathematical logic                                  6       8         6
+  families with 1 paper   205
+  largest family          14 papers
+  families whose entry says counterexample, disproves or refutes   62
+
+DATES IN THE FOLDER NAMES
+  2026-09-10     2  
+  2026-09-17     1  
+  2026-09-18     1  
+  2026-09-22     3  
+  2026-09-23   177  ############################################
+  2026-09-24   194  ################################################
+  2026-09-25    90  ######################
+  2026-09-26    53  #############
+  2026-09-27    51  ############
+  2026-09-30     5  #
+  2026-10-01     1  
+  2026-10-02     1  
+  2026-10-03     6  #
+  2026-10-04    24  ######
+  2026-10-05   112  ############################
+  2026-10-06     1  
+  first 2026-09-10   last 2026-10-06
+  two busiest days hold 371 of 722
+
+LEAN
+  families with a Lean page       235 of 372  (63.2%)
+  families without one            137
+  manuscripts named on Lean pages 329 of 722  (45.6%)
+  challenge statements            405
+  challenges linked from pages    405
+  permitted axioms propext, Quot.sound, Classical.choice: 382 challenges
+  permitted axioms propext, Classical.choice, Quot.sound: 23 challenges
+  theorems named in the configs   507
+  statement length in lines: shortest 6, median 57, longest 17384
+  statements of 20 lines or fewer 28
+    QuasiRiemannHypothesis   6 lines, proves OAI.NumberTheory.DirichletL.Nonvanishing
+    EuclideanFiveColor       9 lines, proves OAI.Geometry.PlaneColoring.Five
+    PiExponent               14 lines, proves OAI.NumberTheory.PiExponent.Main
+  Lean pages that link no challenge  0
+  Lean files in lean/OAI          121733
+    Analysis               26411
+    NumberTheory           23530
+    Combinatorics          16338
+    Geometry               14057
+    Probability            12971
+    MathematicalPhysics    6736
+  formalization.yaml: papers 162, main results 185, review status unchecked
+
+THE TEN FAMILIES WITH A REASONING SUMMARY
+  007  Lean page     Two-point Chowla and the corrected binary Elliott conjecture
+  017  Lean page     The irrationality exponent of $\pi$ is $2$
+  087  Lean page     The Mahler conjectures and symplectic width
+  102  Lean page     The Unique Games Conjecture and optimal approximation thresholds
+  159  Lean page     Erd\H{o}s's reciprocal-sum conjecture and quasipolynomial Szemer\'edi 
+  197  Lean page     Nonsofic groups and group-ring counterexamples
+  221  Lean page     The M\'ezard--Parisi formula for diluted spin glasses
+  271  Lean page     Bloch's law and spontaneous ferromagnetic order
+  287  Lean page     All nonabelian free group factors are isomorphic
+  362  Lean page     Global smoothness for relativistic Vlasov--Maxwell
+  with a Lean page: 10 of 10
+
+MOSER SPINDLE
+  points 7   unit distances 11
+  ways to colour it with 3 colours  0
+  ways to colour it with 4 colours  384
+  best try with 3 colours [0, 0, 1, 2, 1, 2, 0] still has 1 link with one colour at both ends
+  one colouring with 4 colours [0, 1, 2, 0, 1, 2, 3]
+HEXAGON TILING
+  hexagon side 0.45, widest point 0.9
+  nearest hexagon of the same colour is 1.191 away
+  7 colours: 1,000,000 random pairs at distance 1, same colour in 0
+  4 colours, same tiling: same colour in 140,667
+
+FRACTIONS FOR PI
+          fraction        miss       1/q^2   nu
+         22/7         1.26e-03    2.04e-02   3.43
+        333/106       8.32e-05    8.90e-05   2.01
+        355/113       2.67e-07    7.83e-05   3.20
+     103993/33102     5.78e-10    9.13e-10   2.04
+     104348/33215     3.32e-10    9.06e-10   2.10
+     208341/66317     1.22e-10    2.27e-10   2.06
+     312689/99532     2.91e-11    1.01e-10   2.11
+     833719/265381    8.72e-12    1.42e-11   2.04
+FLINT HILLS SERIES   sum of 1 / (n^3 sin^2 n)
+  term n = 103993 adds 0.0000024
+  sum up to n = 354     4.8074
+  sum up to n = 355     29.4056
+  sum up to n = 1000    30.1748
+  sum up to n = 100000  30.3145
+  sum up to n = 1000000 30.3145
+  term n = 355    adds 24.5982   sin(n) = -0.000030
+  term n = 3      adds 1.8598   sin(n) = +0.141120
+  term n = 1      adds 1.4123   sin(n) = +0.841471
+  term n = 22     adds 1.1987   sin(n) = -0.008851
+
+           x    primes       li(x)     gap  sqrt(x)    x^(7/8)
+       1,000       168       177.6     9.6       32        422
+      10,000     1,229     1,246.1    17.1      100       3162
+     100,000     9,592     9,629.8    37.8      316      23714
+   1,000,000    78,498    78,627.5   129.5     1000     177828
+  10,000,000   664,579   664,918.4   339.4     3162    1333521
+  up to 100: 25 primes, li(100) = 30.1
+
+ZEROS OF ZETA BELOW HEIGHT 150
+  found 52
+  heights 14.1347, 21.0220, 25.0109, 30.4249, 32.9351, 37.5862, 40.9187, 43.3271, ...
+  real part of every one: [0.5]
+  |zeta| on the centre line, height 0 to 50: largest 3.651, smallest 0.0081
+  |zeta| on the line Re s = 7/8, height 0 to 50: smallest 0.2699
